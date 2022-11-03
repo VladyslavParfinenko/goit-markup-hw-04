@@ -112,6 +112,26 @@ img {
 }
 
 /* Контакти */
+
+.icon-envelope{
+ align-self: center;
+ margin-right: 10px;
+ fill: currentColor;
+}
+.contact:hover .icon-envelope{
+  fill: var(--accent-color);
+}
+.contact:hover .icon-smartphone{
+  fill: var(--accent-color);
+}
+
+    
+
+.icon-smartphone{
+  align-self: center;
+  margin-right: 10px;
+  fill:currentColor;
+}
 .auth-nav {
   display: flex;
   margin-left: auto;
@@ -123,6 +143,7 @@ img {
   margin-right: 0;
 }
 .contact {
+  display: inline-flex;
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
