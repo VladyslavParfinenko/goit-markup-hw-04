@@ -330,6 +330,25 @@ img {
   text-align: center;
   padding: 30px 0;
 }
+.clients{
+  padding: 94px 0;
+}
+.clients-list{
+  display: flex;
+}
+.clients-item{
+  display: flex;
+  height: 92px;
+  width: 170px;
+  border:1px solid #AFB1B8;
+  border-radius:4px;
+  margin-right: 30px;
+  justify-content: center;
+  align-items:center;
+}
+.clients-item:last-child{
+  margin-right: 0;
+}
 
 /* Футер */
 .footer {
