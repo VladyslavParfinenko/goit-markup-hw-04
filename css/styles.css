@@ -335,20 +335,34 @@ img {
 }
 .clients-list{
   display: flex;
+  justify-content: space-between;
 }
-.clients-item{
-  display: flex;
-  height: 92px;
-  width: 170px;
+.client-box{
   border:1px solid #AFB1B8;
   border-radius:4px;
-  margin-right: 30px;
+  height: 92px;
+  width: 170px;
+  display: flex;
+  
   justify-content: center;
   align-items:center;
 }
-.clients-item:last-child{
-  margin-right: 0;
+
+.clients-icon{
+ fill: #AFB1B8;
+  
 }
+
+.group-link:hover .clients-icon{
+  fill:var(--accent-color);
+}
+.group-link:hover .client-box{
+  border-color: var(--accent-color);
+}
+
+
+
+
 
 /* Футер */
 .footer {
