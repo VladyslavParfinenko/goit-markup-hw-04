@@ -206,6 +206,19 @@ img {
 }
 
 /* Особливості */
+.benefits-img{
+  display: flex;
+  background-color:#F5F4FA;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  justify-content: center;
+  }
+  .benefits-icon{
+    align-self:center;
+  }
+
 
 .box {
   padding-top: 94px;
