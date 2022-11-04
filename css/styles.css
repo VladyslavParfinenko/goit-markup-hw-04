@@ -113,24 +113,22 @@ img {
 
 /* Контакти */
 
-.icon-envelope{
- align-self: center;
- margin-right: 10px;
- fill: currentColor;
-}
-.contact:hover .icon-envelope{
-  fill: var(--accent-color);
-}
-.contact:hover .icon-smartphone{
-  fill: var(--accent-color);
-}
-
-    
-
-.icon-smartphone{
+.icon-envelope {
   align-self: center;
   margin-right: 10px;
-  fill:currentColor;
+  fill: currentColor;
+}
+.contact:hover .icon-envelope {
+  fill: var(--accent-color);
+}
+.contact:hover .icon-smartphone {
+  fill: var(--accent-color);
+}
+
+.icon-smartphone {
+  align-self: center;
+  margin-right: 10px;
+  fill: currentColor;
 }
 .auth-nav {
   display: flex;
@@ -160,11 +158,11 @@ img {
 
 /* hero */
 .hero-bg {
-  background-color: #2F303A;;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero-bg.jpg);
+  background-color: #2f303a;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
 
   text-align: center;
   padding: 200px 0;
@@ -206,19 +204,18 @@ img {
 }
 
 /* Особливості */
-.benefits-img{
+.benefits-img {
   display: flex;
-  background-color:#F5F4FA;
+  background-color: #f5f4fa;
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
   border-radius: 4px;
   justify-content: center;
-  }
-  .benefits-icon{
-    align-self:center;
-  }
-
+}
+.benefits-icon {
+  align-self: center;
+}
 
 .box {
   padding-top: 94px;
@@ -330,39 +327,34 @@ img {
   text-align: center;
   padding: 30px 0;
 }
-.clients{
+.clients {
   padding: 94px 0;
 }
-.clients-list{
+.clients-list {
   display: flex;
   justify-content: space-between;
 }
-.client-box{
-  border:1px solid #AFB1B8;
-  border-radius:4px;
+.client-box {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   height: 92px;
   width: 170px;
   display: flex;
-  
+
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.clients-icon{
- fill: #AFB1B8;
-  
+.clients-icon {
+  fill: #afb1b8;
 }
 
-.group-link:hover .clients-icon{
-  fill:var(--accent-color);
+.group-link:hover .clients-icon {
+  fill: var(--accent-color);
 }
-.group-link:hover .client-box{
+.group-link:hover .client-box {
   border-color: var(--accent-color);
 }
-
-
-
-
 
 /* Футер */
 .footer {
@@ -466,4 +458,8 @@ img {
 .img-list {
   width: 370px;
   margin: 15px;
+}
+
+.link-works:hover .shadow{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
