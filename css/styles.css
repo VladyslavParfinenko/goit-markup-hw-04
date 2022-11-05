@@ -410,6 +410,7 @@ img {
 }
 .footer-wrapper{
   display: flex;
+  align-items:baseline;
   
 }
 
@@ -445,9 +446,7 @@ img {
 .address-mt:focus {
   color: var(--accent-color);
 }
-.connect-box{
-  margin-top: 12px;
-}
+
 .connect-title{
   color:#FFFFFF;
   font-size: 14px;
