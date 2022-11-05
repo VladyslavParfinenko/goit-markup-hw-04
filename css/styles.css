@@ -377,7 +377,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.client-box {
+/* .client-box {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   height: 92px;
@@ -386,22 +386,32 @@ img {
 
   justify-content: center;
   align-items: center;
-}
+} */
+.group-link{
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  height: 92px;
+  width: 170px;
+  display: flex;
 
+  justify-content: center;
+  align-items: center;
+  color:var(--accent-color);
+}
 .clients-icon {
   fill: #afb1b8;
 }
 
 .group-link:hover .clients-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
-.group-link:hover .client-box {
+.group-link:hover{
   border-color: var(--accent-color);
 }
 .group-link:focus .clients-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
-.group-link:focus .client-box {
+.group-link:focus{
   border-color: var(--accent-color);
 }
 /* Футер */
