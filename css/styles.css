@@ -437,9 +437,7 @@ img {
 .address-list:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-map {
-  color: var(--defult-color);
-}
+
 .address-mt {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -450,13 +448,9 @@ img {
   font-style: normal;
 }
 
-.address-map:hover,
-.address-map:focus {
-  color: var(--accent-color);
-}
 .address-mt:hover,
 .address-mt:focus {
-  color: var(--accent-color);
+  color:var(--defult-color);
 }
 
 .connect-title{
